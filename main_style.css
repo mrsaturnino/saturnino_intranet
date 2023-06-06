@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-  /* Estilos para o formulário */
+/* Estilos para o formulário */
 #main-id-form {
     width: 300px;
     margin: 0 auto;
@@ -23,7 +23,8 @@ label {
     margin-bottom: 15px;
 }
 
-#username-login, #password-login {
+#username-login,
+#password-login {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -58,6 +59,7 @@ label {
     padding: 8.5px;
     background: rgba(40, 38, 146, 0.94);
     color: white;
+    font-family: 'Roboto Condensed';
 }
 
 /*estilizando a div que contém o formulário*/
@@ -95,7 +97,7 @@ label {
     justify-content: center;
     align-items: flex-start;
     padding: 10px 15px;
-    
+
 
     position: relative;
     width: 67px;
@@ -107,7 +109,8 @@ label {
     box-sizing: border-box;
 }
 
-#username-login, #password-login {
+#username-login,
+#password-login {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
