@@ -8,14 +8,23 @@ body {
     background-color: rgb(243, 243, 243);
 }
 
+/*estilizando os "labels" do formulario*/
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/*estilizando o cabeçalho*/
 #page-header {
     position: relative;
     padding: 8.5px;
     background: rgba(40, 38, 146, 0.94);
     color: white;
+    box-shadow: 0px 0px 5px 0px;
 }
 
-#main-c-form {
+/*estilizando a div que contém o formulário*/
+#main-div-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,9 +32,18 @@ body {
     padding: 250px;
     background-color: white;
     border-radius: 2.9%;
-    
 }
 
+/*estilizando o formulario*/
+#main-id-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+/*estilizando o rodapé da página*/
 #page-footer {
     padding: 10px;
     margin: 0;
@@ -33,17 +51,14 @@ body {
     background-color: rgb(229, 229, 231);
 }
 
-
-.button-login{
-    box-sizing: border-box;
-}
-
+/*estilizando o botão de login*/
 .button-login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 10px 15px;
+    
 
     position: relative;
     width: 67px;
@@ -52,4 +67,24 @@ body {
     background: #5E5BFF;
     border: 1px solid #5E5BFF;
     border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#username-login, #password-login {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #5d53b8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
