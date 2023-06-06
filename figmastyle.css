@@ -6,6 +6,44 @@
 
 body {
     background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  /* Estilos para o formulário */
+#main-id-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#username-login, #password-login {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #5d53b8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sumit-login {
+    background-color: #45a049;
 }
 
 /*estilizando os "labels" do formulario*/
@@ -20,7 +58,6 @@ label {
     padding: 8.5px;
     background: rgba(40, 38, 146, 0.94);
     color: white;
-    box-shadow: 0px 0px 5px 0px;
 }
 
 /*estilizando a div que contém o formulário*/
@@ -29,7 +66,7 @@ label {
     justify-content: center;
     align-items: center;
     margin: 100px 500px 100px 500px;
-    padding: 250px;
+    padding: 150px;
     background-color: white;
     border-radius: 2.9%;
 }
