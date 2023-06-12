@@ -60,6 +60,7 @@ label {
     background: rgba(40, 38, 146, 0.94);
     color: white;
     font-family: 'Roboto Condensed';
+    box-shadow: -1px 1px 2px 0px black;
 }
 
 /*estilizando a div que contém o formulário*/
@@ -84,9 +85,12 @@ label {
 
 /*estilizando o rodapé da página*/
 #page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 10px;
-    margin: 0;
     text-align: center;
+    margin: 0;
     background-color: rgb(229, 229, 231);
 }
 
