@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main_style.css"> <!--importing main css file-->
-    <link rel="stylesheet" href="script.js"> <!--importing main js file-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--importing fonts-->
+    <link rel="stylesheet" href="main_style.css"> <!--importando o arquivo css-->
+    <link rel="stylesheet" href="script.js"> <!--importando arquivo js principal-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--importando fontes-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Intranet | mrsaturnino </title>
@@ -22,15 +22,15 @@
     <main id="main-content">
         <div id="main-div-form">
             <div class="main-content-class">
-                <form action="!GET_FILE" id="main-id-form">
+                <form id="main-id-form">
                     <label for="username-login">Login</label>
                     <input type="text" id="username-login" name="username" required>
 
                     <label for="password-login">Password</label>
-                    <input type="text" id="password-login" name="password" required>
+                    <input type="password" id="password-login" name="password" required>
 
                     <input type="checkbox" id="keep-logged" name="keep-login">
-                    <input type="submit" id="submit-login" value="Login">
+                    <input type="submit" id="submit-login" value="Login" onclick="login()">
                 </form>
             </div>
         </div>
